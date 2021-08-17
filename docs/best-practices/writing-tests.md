@@ -4,7 +4,7 @@ Undici is tuned for a production use case and its default will keep
 a socket open for a few seconds after an HTTP request is completed to
 remove the overhead of opening up a new socket. These settings that makes
 Undici shine in production are not a good fit for using Undici in automated
-tests, as it will result in longer execution times.
+tests, as it will result in longer execution times.aaa
 
 The following are good defaults that will keep the socket open for only 10ms:
 
